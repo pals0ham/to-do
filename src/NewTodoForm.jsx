@@ -18,7 +18,7 @@ export function NewTodoForm({ onSubmit }) {
           onChange={(e) => setNewItem(e.target.value)}
         />
       </div>
-      <button type="button" className="btn">
+      <button type="button" className="btn" onClick={handleSubmit}>
         ADD
       </button>
     </form>
